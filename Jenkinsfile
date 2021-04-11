@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Step 1 Git') {
             steps {
-                git 'https://github.com/RiyaGhosh3110/DevOps_Scientific_Calculator.git'
+                git 'https://github.com/RiyaGhosh3110/Scientific_Calculator_DevOps.git'
                 //sh './mvnw clean compile'
             }
         }
